@@ -1,4 +1,4 @@
-bucket = "bharath-remote-state-dev"
+bucket = "bharath-remote-state-prod"
 key    = "tfvars-demo"
 region = "us-east-1"
 encrypt        = true
