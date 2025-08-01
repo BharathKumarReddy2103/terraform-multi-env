@@ -6,7 +6,6 @@ variable "environment" {
     
 }
 
-
 variable "common_tags"{
     default = {
         Project = "roboshop"
