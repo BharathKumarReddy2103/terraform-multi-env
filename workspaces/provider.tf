@@ -4,7 +4,7 @@ terraform {
       source = "hashicorp/aws"
       version = "5.98.0"
     }
-  }
+  } 
 
   backend "s3" {
     bucket = "bharath-remote-state"
