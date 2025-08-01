@@ -2,6 +2,12 @@ variable "project" {
     default = "roboshop"
 }
 
+variable "subnet_id" {
+  type        = string
+  default = "subnet-027e9b95abbffe496"
+  description = "subnet ID of bharath RHEL9"
+}
+
 variable "common_tags"{
     default = {
         Project = "roboshop"
