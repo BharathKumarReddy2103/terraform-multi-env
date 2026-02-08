@@ -4,7 +4,7 @@ variable "project" {
 
 variable "subnet_id" {
   type        = string
-  default = "subnet-0220d79f3f480ecf5"
+  default = "subnet-027e9b95abbffe496"
   description = "subnet ID of bharath RHEL9"
 }
 
@@ -42,7 +42,7 @@ variable "cidr_blocks" {
 
 variable "ami_id" {
   type        = string
-  default     = "ami-09c813fb71547fc4f"
+  default     = "ami-0220d79f3f480ecf5"
   description = "AMI ID of bharathdevops RHEL9"
 }
 
