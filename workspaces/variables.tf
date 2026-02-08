@@ -4,7 +4,7 @@ variable "project" {
 
 variable "subnet_id" {
   type        = string
-  default = "subnet-027e9b95abbffe496"
+  default = "subnet-0220d79f3f480ecf5"
   description = "subnet ID of bharath RHEL9"
 }
 
