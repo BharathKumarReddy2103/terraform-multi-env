@@ -16,7 +16,7 @@ variable "common_tags"{
 }
 
 variable "sg_name" {
-    default = "allow-all-roboshop"
+    default = "allow-all"
 }
 
 variable "sg_description" {
