@@ -24,7 +24,7 @@ variable "sg_description" {
 }
 
 variable "instances" {
-    default = ["cart","catalogue"]
+    default = ["mongodb","redis"]
 }
 
 variable "from_port" {
